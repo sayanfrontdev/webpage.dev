@@ -234,7 +234,7 @@ btn-group a:nth-of-type(2):hover{
 
 .text-animation span:before{
 
-    content: "Web Development";
+    content: "Web Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 
@@ -243,7 +243,7 @@ btn-group a:nth-of-type(2):hover{
 
 .text-animation span:after{
     content: '';
-    border-color: var(--bg-color);
+   background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -272,6 +272,16 @@ btn-group a:nth-of-type(2):hover{
     41%,
     60% {
         content: "Backend Developer with Node.js";
+    }
+
+    61%,
+    80%{
+        content: "Web Designer";
+    }
+
+    81%,
+    100% {
+        content: "Knowledge about Linux";
     }
 }
 
