@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color:#131313;
     --text-color:#fff;
-    --main-color: #0096ff;
+    --main-color: #eb260c;
 }
 
 html{
@@ -277,18 +277,15 @@ btn-group a:nth-of-type(2):hover{
 
     41%,
     60% {
-        content: "Backend Developer with Node.js";
+        content: "Intermediate in Firebase";
     }
 
     61%,
     80%{
-        content: "Web Designer";
-    }
-
-    81%,
-    100% {
         content: "Knowledge about Linux";
     }
+
+    
 }
 
 
